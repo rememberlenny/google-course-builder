@@ -26,7 +26,11 @@ course:
   # administrative users. Each email address must be placed between '[' and ']',
   # for example: '[test@example.com]'. Regular expressions are not supported,
   # exact match only.
-  admin_user_emails: ''
+  admin_user_emails: 
+  [cosmo.fujiyama@gmail.com]
+  [ashernovek@gmail.com]
+  [seenajon@gmail.com]
+  [thegovlab@gmail.com]
 
   # Course title
   title: 'Storytelling'
@@ -45,7 +49,7 @@ course:
   # priority. The image alt text allows the image to be understood by text-only
   # screen readers.
   main_video:
-    url: https://www.youtube.com/embed/Kdg2drcUjYI?rel=0
+    url: http://player.vimeo.com/video/67147561?portrait=0
   main_image:
     url: /assets/img/banner1.png
     alt_text: Photo of Dan Russell
@@ -56,20 +60,20 @@ course:
   # Forum URL. For details, see
   #
   #     http://code.google.com/p/course-builder/wiki/WebForums.
-  forum_email: My-Course@googlegroups.com
-  forum_url: https://groups.google.com/group/My-Course
+  forum_email: govlab-academy@googlegroups.com
+  forum_url: https://groups.google.com/group/govlab-academy
 
   # Forum embedding URL. This link is used to embed the forum in an iframe on
   # the forum.html page. Set this value to False if you don't use forum and/or
   # to remove the Forum link from the student navigation bar.
-  forum_embed_url: https://groups.google.com/forum/embed/?place=forum/My-Course
+  forum_embed_url: https://groups.google.com/forum/embed/?place=forum/govlab-academy
 
   # URL for the mailing list where students can register to receive course
   # announcements. For details, see
   #
   #     http://code.google.com/p/course-builder/wiki/CreateEmailList
-  announcement_list_email: My-Course-Announce@googlegroups.com
-  announcement_list_url: https://groups.google.com/group/My-Course-Announce
+  announcement_list_email: govlab-academy@googlegroups.com
+  announcement_list_url: https://groups.google.com/group/govlab-academy
 
   # Locale for internationalization. See modules/i18n/resources/locale for
   # available locales.

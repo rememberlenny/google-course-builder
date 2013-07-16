@@ -143,10 +143,11 @@ class YouTube(tags.BaseTag):
             '?feature=player_embedded&amp;rel=0') % video_id
         iframe = cElementTree.XML("""
 <p class="gcb-video-container">
-  <iframe class="youtube-player" title="YouTube Video Player"
-    type="text/html" width="650" height="400" frameborder="0"
-    allowfullscreen="allowfullscreen">
+  <iframe src="http://player.vimeo.com/video/67147561?portrait=0" 
+    width="650" height="400" frameborder="0" webkitAllowFullScreen 
+    mozallowfullscreen allowFullScreen class="youtube-player">
   </iframe>
+
 </p>""")
         iframe[0].set('src', you_tube_url)
         return iframe
