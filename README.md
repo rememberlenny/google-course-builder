@@ -1,2 +1,4 @@
-google-course-builder
+NYU GovLab Academy
 =====================
+
+Built using Google Course Builder

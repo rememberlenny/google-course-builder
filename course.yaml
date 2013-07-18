@@ -26,11 +26,11 @@ course:
   # administrative users. Each email address must be placed between '[' and ']',
   # for example: '[test@example.com]'. Regular expressions are not supported,
   # exact match only.
-  admin_user_emails: 
-  [cosmo.fujiyama@gmail.com]
-  [ashernovek@gmail.com]
-  [seenajon@gmail.com]
-  [thegovlab@gmail.com]
+  admin_user_emails: |
+    [cosmo.fujiyama@gmail.com]
+    [ashernovek@gmail.com]
+    [seenajon@gmail.com]
+    [thegovlab@gmail.com]
 
   # Course title
   title: 'Storytelling'
